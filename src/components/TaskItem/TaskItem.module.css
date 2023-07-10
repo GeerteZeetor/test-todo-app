@@ -1,0 +1,65 @@
+.task {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 3px;
+}
+
+.taskColor {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: 3px;
+  background-color: rgb(126, 197, 141);
+}
+
+.taskTitle {
+  font-weight: 400;
+  padding-top: 5px;
+}
+
+.done {
+  font-weight: 400;
+  padding-top: 5px;
+  text-decoration: line-through;
+  color: #CDCDCD;
+}
+
+.buttons {
+  display: flex;
+  column-gap: 5px;
+  border: none;
+}
+
+.btnAction {
+  background-color: #e0e5ea;
+  padding: 8px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  opacity: 0.5;
+  outline: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btnAction:hover {
+  background-color: #e0e5ea;
+  opacity: 1;
+}
+
+.btnAction:focus {
+  border: none;
+  outline: none;
+}
+
+.btnAction img {
+  pointer-events: none;
+}
